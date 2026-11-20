@@ -39,7 +39,7 @@ def main():
     result = find_first_zero(matrix)
 
     if result is None:
-        print("Нулевых элементов в матрице нет.")
+        print("Поиск завершён. Нулевые элементы отсутствуют.")
     else:
         i, j = result
         print(f"Индексы первого нуля: [{i}][{j}]")
